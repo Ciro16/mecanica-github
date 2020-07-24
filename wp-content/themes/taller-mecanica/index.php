@@ -31,7 +31,7 @@ get_header(); ?>
                     <h6 class="card-subtitle mb-2 text-muted">Autor: <?php the_author(); ?></h6>
                     <h6 class="card-subtitle mb-2 text-muted">Fecha: <?php the_time('j, F, Y'); ?></h6>
                     <p class="card-text"><?php the_content(); ?></p>
-                    <a href="<?php the_permalink(); ?>" class="btn btn-primary">Go somewhere</a>
+                    <a href="<?php the_permalink(); ?>" class="btn btn-primary">Ir a la publicación</a>
                 </div>
             </div>
             
